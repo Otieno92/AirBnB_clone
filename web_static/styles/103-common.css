@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+html {box-sizing: border-box;}
+
+body {
+  font-size: 14px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%; display: flex;
+  color: #484848;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span {color: #000000;}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 2rem auto;
+}
